@@ -11,6 +11,6 @@ public class Product {
 
     public void tampilkanDetail() {
         System.out.println("Nama Produk:\t" + name);
-        System.out.println("Harga:\t" + harga);
+        System.out.println("Harga:\t\t" + harga);
     }
 }

@@ -11,6 +11,6 @@ public class MakananRingan extends Product {
     @Override
     public void tampilkanDetail() {
         super.tampilkanDetail();
-        System.out.println("Rasa: " + rasa);
+        System.out.println("Rasa:\t\t" + rasa);
     }
 }
