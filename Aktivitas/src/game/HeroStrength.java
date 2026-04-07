@@ -18,7 +18,6 @@ public class HeroStrength extends Hero {
     public void terimaSerangan(double damage) {
         double reducedDamage = damage * 0.5;
         super.terimaSerangan(reducedDamage);
-        System.out.println(nama + " player berhasil menahan serangan dan menerima serangan sebesar " + reducedDamage);
     }
 
     @Override
