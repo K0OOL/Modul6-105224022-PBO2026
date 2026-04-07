@@ -4,7 +4,7 @@ import game.HeroStrength;
 public class Main1 {
     public static void main(String[] args) {
         Hero hero = new Hero("Hanabi", 100, 10);
-        HeroStrength heroStrength = new HeroStrength("Karie", 100, 10, "Strength");
+        HeroStrength heroStrength = new HeroStrength("Karie", 100, 10);
 
         hero.display();
         heroStrength.display();

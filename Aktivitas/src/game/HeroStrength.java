@@ -4,9 +4,8 @@ public class HeroStrength extends Hero {
 
     String tipe = "Strength";
 
-    public HeroStrength(String nama, double health, double attackPower, String tipe) {
+    public HeroStrength(String nama, double health, double attackPower) {
         super(nama, health, attackPower);
-        this.tipe = tipe;
     }
 
     @Override
